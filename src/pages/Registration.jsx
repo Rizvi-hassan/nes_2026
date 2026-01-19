@@ -12,7 +12,7 @@ function Registration() {
                     </h1>
                     <div className="w-24 h-1 bg-blue-600 mx-auto mb-4"></div>
                     <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                        Choose your registration type and complete your registration through Google Forms
+                        Choose your registration type and complete your registration through <span className="text-blue-700 font-semibold">Google Forms</span>
                     </p>
                 </div>
 
@@ -46,7 +46,7 @@ function Registration() {
                         </div>
                         <button
                             onClick={() => handleRegister('https://forms.google.com')}
-                            className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors shadow-md"
+                            className="w-full cursor-pointer bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors shadow-md"
                         >
                             Register Online
                         </button>
@@ -78,15 +78,15 @@ function Registration() {
                                     <span className="text-green-600 mr-2">✓</span>
                                     <span>Workshop materials</span>
                                 </li>
-                                <li className="flex items-start">
+                                {/* <li className="flex items-start">
                                     <span className="text-green-600 mr-2">✓</span>
                                     <span>Certificate of participation</span>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                         <button
                             onClick={() => handleRegister('https://forms.google.com')}
-                            className="w-full bg-green-600 text-white py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors shadow-md"
+                            className="w-full cursor-pointer bg-green-600 text-white py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors shadow-md"
                         >
                             Register for 1 Day
                         </button>
@@ -121,10 +121,10 @@ function Registration() {
                                     <span className="text-purple-600 mr-2">✓</span>
                                     <span>Complete workshop materials</span>
                                 </li>
-                                <li className="flex items-start">
+                                {/* <li className="flex items-start">
                                     <span className="text-purple-600 mr-2">✓</span>
                                     <span>Certificate of participation</span>
-                                </li>
+                                </li> */}
                                 <li className="flex items-start">
                                     <span className="text-purple-600 mr-2">✓</span>
                                     <span>Networking opportunities</span>
@@ -133,7 +133,7 @@ function Registration() {
                         </div>
                         <button
                             onClick={() => handleRegister('https://forms.google.com')}
-                            className="w-full bg-purple-600 text-white py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors shadow-md"
+                            className="w-full cursor-pointer bg-purple-600 text-white py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors shadow-md"
                         >
                             Register for 2 Days
                         </button>

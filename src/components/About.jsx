@@ -6,7 +6,7 @@ function About() {
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                         About NES 2026
                     </h2>
-                    <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
+                    <div className="w-24 h-1 accent-dark mx-auto"></div>
                 </div>
 
                 <div className="max-w-4xl mx-auto space-y-6 text-gray-700 text-lg leading-relaxed">
@@ -28,8 +28,8 @@ function About() {
                         teaching and research practices.
                     </p>
 
-                    <div className="mt-8 p-6 bg-blue-50 rounded-lg border-l-4 border-blue-600">
-                        <p className="text-blue-900 font-semibold">
+                    <div className="mt-8 p-6 accent-light rounded-lg border-l-4 border-dark">
+                        <p className="text-dark font-semibold">
                             🔗 Be part of the community shaping the next wave of VLSI and embedded system innovation.
                         </p>
                     </div>

@@ -4,25 +4,25 @@ function Navbar() {
     const location = useLocation();
     const isRegister = location.pathname === '/register';
     return (
-        <nav className="bg-white shadow-md sticky top-0 z-50">
+        <nav className="bg-white shadow-md fixed w-full top-0 z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
-                    <div className="shrink-0">
-                        <Link to="/" className="text-xl font-bold text-blue-600">
-                            NES 2026
+                    <div className="shrink-0 h-full">
+                        <Link to="/" className=" block h-full">
+                            <img src="/images/logo.svg" alt="logo" className='h-full' />
                         </Link>
                     </div>
                     <div className="hidden md:block">
                         <div className="ml-10 flex items-baseline space-x-4">
                             <Link
                                 to="/"
-                                className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                                className="text-gray-700 hover:text-dark px-3 py-2 rounded-md text-sm font-medium transition-colors"
                             >
                                 Home
                             </Link>
                             <Link
                                 to="/register"
-                                className="bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors"
+                                className="bg-gradient text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-gradient-hover transition-all duration-200"
                             >
                                 Register
                             </Link>
@@ -31,7 +31,7 @@ function Navbar() {
                     <div className="md:hidden">
                         <Link
                             to={isRegister ? '/' : '/register'}
-                            className="bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors"
+                            className="bg-gradient text-white px-4 py-2 rounded-md text-sm font-medium transition-colors"
                         >
                             {isRegister ? 'Home' : 'Register'}
                         </Link>

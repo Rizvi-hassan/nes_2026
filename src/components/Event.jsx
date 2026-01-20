@@ -6,14 +6,14 @@ function Event() {
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                         Event Schedule
                     </h2>
-                    <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
+                    <div className="w-24 h-1 accent-dark mx-auto"></div>
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
                     {/* Day 1 */}
-                    <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 shadow-lg border border-blue-100">
+                    <div className="bg-gradient-to-br from-indigo-100 to-purple-100 rounded-xl p-8 shadow-lg border border-[#e9e2f1]">
                         <div className="flex items-center mb-4">
-                            <div className="bg-blue-600 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-xl mr-4">
+                            <div className="accent-dark text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-xl mr-4">
                                 1
                             </div>
                             <h3 className="text-2xl font-bold text-gray-900">Day 1</h3>
@@ -36,9 +36,9 @@ function Event() {
                     </div>
 
                     {/* Day 2 */}
-                    <div className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-xl p-8 shadow-lg border border-indigo-100">
+                    <div className="bg-gradient-to-br from-indigo-100 to-purple-100 rounded-xl p-8 shadow-lg border border-indigo-100">
                         <div className="flex items-center mb-4">
-                            <div className="bg-indigo-600 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-xl mr-4">
+                            <div className="bg-purple-800 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-xl mr-4">
                                 2
                             </div>
                             <h3 className="text-2xl font-bold text-gray-900">Day 2</h3>

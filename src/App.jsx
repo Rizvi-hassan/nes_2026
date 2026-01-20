@@ -1,32 +1,33 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Landing from './pages/Landing';
 import Registration from './pages/Registration';
-import { useEffect, useState } from 'react';
 import Loader from './components/Loader';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
 
-  const changeLoading = () => {
-    setTimeout(() => setIsLoading(false), 1500);
-  }
-
   useEffect(() => {
+    const handleLoad = () => {
+      setIsLoading(false);
+    };
+
     if (document.readyState === 'complete') {
-      // setIsLoading(false);
-      changeLoading();
+      // All resources (including images) are already loaded.
+      handleLoad();
       return;
     }
-    // const handleLoad = () => setIsLoading(false);
-    const handleLoad = () => changeLoading();
+
     window.addEventListener('load', handleLoad);
-    return () => window.removeEventListener('load', handleLoad);
+    return () => {
+      window.removeEventListener('load', handleLoad);
+    };
   }, []);
 
-  if( isLoading ) {
-    return <Loader/> 
+  if (isLoading) {
+    return <Loader />;
   }
 
   return (

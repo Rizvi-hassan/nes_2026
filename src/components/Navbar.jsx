@@ -9,7 +9,8 @@ function Navbar() {
                 <div className="flex justify-between items-center h-16">
                     <div className="shrink-0 h-full">
                         <Link to="/" className=" block h-full">
-                            <img src="/images/logo.svg" alt="logo" className='h-full' />
+                            {/* <img src="/images/logo.svg" alt="logo" className='h-full' /> */}
+                            <img src="https://ik.imagekit.io/hh2sgw5xw/NES/logo.svg" alt="logo" className='h-full' />
                         </Link>
                     </div>
                     <div className="hidden md:block">

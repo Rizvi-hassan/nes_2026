@@ -3,8 +3,32 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Landing from './pages/Landing';
 import Registration from './pages/Registration';
+import { useEffect, useState } from 'react';
+import Loader from './components/Loader';
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  const changeLoading = () => {
+    setTimeout(() => setIsLoading(false), 1500);
+  }
+
+  useEffect(() => {
+    if (document.readyState === 'complete') {
+      // setIsLoading(false);
+      changeLoading();
+      return;
+    }
+    // const handleLoad = () => setIsLoading(false);
+    const handleLoad = () => changeLoading();
+    window.addEventListener('load', handleLoad);
+    return () => window.removeEventListener('load', handleLoad);
+  }, []);
+
+  if( isLoading ) {
+    return <Loader/> 
+  }
+
   return (
     <Router>
       <div className="min-h-screen bg-white flex flex-col">

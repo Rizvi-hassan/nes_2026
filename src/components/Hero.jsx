@@ -5,8 +5,8 @@ function Hero() {
         <section className="bg-gradient text-white py-20 h-svh">
             {/* Image mask  */}
             <div className='absolute w-full h-full md:w-[95%] md:h-[95%] z-0 pt-20 abs-center'>
-                <img src="/images/Group.png" alt="Mask" className='relative w-full h-full object-cover object-bottom md:hidden opacity-70' />
-                <img src="/images/Group_md.png" alt="Mask" className='relative hidden w-full h-full object-contain md:block opacity-70' />
+                <img src="/images/GroupW.webp" alt="Mask" className='relative w-full h-full object-cover object-bottom md:hidden opacity-70' />
+                <img src="/images/Group_mdW.webp" alt="Mask" className='relative hidden w-full h-full object-contain md:block opacity-70' />
             </div>
 
             {/* Content  */}
@@ -40,7 +40,6 @@ function Hero() {
                     </div>
                 </div>
                 <div className='md:w-1/2 h-1/2'>
-                    {/* <img src="/images/Group63.svg" alt="Illustration" className='object-cover ' /> */}
                 </div>
             </div>
         </section>

@@ -9,7 +9,7 @@ function App() {
     <Router>
       <div className="min-h-screen bg-white flex flex-col">
         <Navbar />
-        <main className="flex-grow">
+        <main className="grow">
           <Routes>
             <Route path="/" element={<Landing />} />
             <Route path="/register" element={<Registration />} />

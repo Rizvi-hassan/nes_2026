@@ -9,25 +9,24 @@ import Loader from './components/Loader';
 function App() {
   const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    const handleLoad = () => {
-      setIsLoading(false);
-    };
+  const changeLoading = () => {
+    setTimeout(() => setIsLoading(false), 2000);
+  }
 
+  useEffect(() => {
     if (document.readyState === 'complete') {
-      // All resources (including images) are already loaded.
-      handleLoad();
+      // setIsLoading(false);
+      changeLoading();
       return;
     }
-
+    // const handleLoad = () => setIsLoading(false);
+    const handleLoad = () => changeLoading();
     window.addEventListener('load', handleLoad);
-    return () => {
-      window.removeEventListener('load', handleLoad);
-    };
+    return () => window.removeEventListener('load', handleLoad);
   }, []);
 
-  if (isLoading) {
-    return <Loader />;
+  if( isLoading ) {
+    return <Loader/> 
   }
 
   return (

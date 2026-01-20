@@ -60,7 +60,7 @@ function Footer() {
                                 Odisha, India.
                             </li>
                         </ul>
-                        <img src="/images/silicon.webp" alt="25 years of Silicon" className="ml-10 w-30 object-contain" />
+                        <img src="/images/silicon.png" alt="25 years of Silicon" className="ml-10 w-30 object-contain" />
 
                     </div>
                 </div>

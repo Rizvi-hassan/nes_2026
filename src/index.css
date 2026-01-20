@@ -27,27 +27,24 @@ body {
   opacity: 0.9;
 }
 
-.bg-primary {
+.bg-primary{
   background-color: #1E0040;
 }
 
-@utility bg-gradient {
-  background: linear-gradient(135deg, #3e0086, #1E0040);
+@utility bg-gradient{
+  background: linear-gradient( 135deg, #3e0086, #1E0040);
+}
+@utility bg-gradient-hover{
+  background: linear-gradient( 0deg, #3e0086, #1E0040);
 }
 
-@utility bg-gradient-hover {
-  background: linear-gradient(0deg, #3e0086, #1E0040);
-}
-
-@utility text-light {
+@utility text-light{
   @apply text-[#ead9fc]
 }
-
-@utility text-light-1 {
+@utility text-light-1{
   @apply text-[#f0eaf6]
 }
-
-@utility text-dark {
+@utility text-dark{
   @apply text-[#3e0086]
 }
 

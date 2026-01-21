@@ -22,15 +22,15 @@ function Event() {
                         <ul className="space-y-3 text-gray-700 mt-4">
                             <li className="flex items-start">
                                 <span className="text-blue-600 mr-2">•</span>
-                                <span>Insightful keynote talks by experts from academia and industry</span>
+                                <span><span className="font-bold">Visionary Keynotes:</span> Insights from global leaders shaping the future of semiconductors and VLSI.</span>
                             </li>
                             <li className="flex items-start">
                                 <span className="text-blue-600 mr-2">•</span>
-                                <span>Interactive panel discussions</span>
+                                <span><span className="font-bold">Expert Panels:</span> Engaging discussions on design innovation, scaling, and advanced packaging.</span>
                             </li>
                             <li className="flex items-start">
                                 <span className="text-blue-600 mr-2">•</span>
-                                <span>Tech sessions on latest trends</span>
+                                <span><span className="font-bold">Tech Sessions:</span> Highlights of emerging trends in AI‑driven EDA, RISC‑V, and next‑gen VLSI research.</span>
                             </li>
                         </ul>
                     </div>
@@ -47,16 +47,20 @@ function Event() {
                         <ul className="space-y-3 text-gray-700 mt-4">
                             <li className="flex items-start">
                                 <span className="text-indigo-600 mr-2">•</span>
-                                <span>Intensive hands-on workshops on standard cell design</span>
+                                <span><strong>Hands‑on Workshops:</strong> Dive into practical sessions on open‑source IC design workflows.</span>
                             </li>
                             <li className="flex items-start">
                                 <span className="text-indigo-600 mr-2">•</span>
-                                <span>Physical design flow workshops</span>
+                                <span><span className="font-bold">CMOS Design Workshop:</span> Build and analyze standard cells using ngspice, xschem, and Magic.</span>
                             </li>
                             <li className="flex items-start">
                                 <span className="text-indigo-600 mr-2">•</span>
-                                <span>Practical exposure to industrial tools and methodologies</span>
+                                <span><span className="font-bold">RTL‑to‑GDS Flow Workshop:</span> Experience full‑stack chip implementation with LibreLane.</span>
                             </li>
+                            {/* <li className="flex items-start">
+                                <span className="text-indigo-600 mr-2">•</span>
+                                <span><span className="font-bold">Eligibility:</span> </span>
+                            </li> */}
                         </ul>
                     </div>
                 </div>
@@ -64,8 +68,7 @@ function Event() {
                 <div className="mt-12 text-center">
                     <div className="inline-block bg-gray-100 rounded-lg p-6 max-w-2xl">
                         <p className="text-gray-700 text-lg">
-                            <strong>Perfect for:</strong> Undergraduate and graduate students eager to explore careers in advanced electronics,
-                            and faculty looking to enrich their teaching and research.
+                            <strong>Eligibility:</strong> Open to participants with a solid grasp of basic circuits and digital design—typically after the 2nd year of EE, ECE, or CSE.
                         </p>
                     </div>
                 </div>

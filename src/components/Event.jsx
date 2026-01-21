@@ -57,10 +57,10 @@ function Event() {
                                 <span className="text-indigo-600 mr-2">•</span>
                                 <span><span className="font-bold">RTL‑to‑GDS Flow Workshop:</span> Experience full‑stack chip implementation with LibreLane.</span>
                             </li>
-                            {/* <li className="flex items-start">
+                            <li className="flex items-start">
                                 <span className="text-indigo-600 mr-2">•</span>
-                                <span><span className="font-bold">Eligibility:</span> </span>
-                            </li> */}
+                                <span><span className="font-bold">Eligibility:</span> Open to participants with a solid grasp of basic circuits and digital design—typically after the 2nd year of EE, ECE, or CSE.</span>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -68,7 +68,8 @@ function Event() {
                 <div className="mt-12 text-center">
                     <div className="inline-block bg-gray-100 rounded-lg p-6 max-w-2xl">
                         <p className="text-gray-700 text-lg">
-                            <strong>Eligibility:</strong> Open to participants with a solid grasp of basic circuits and digital design—typically after the 2nd year of EE, ECE, or CSE.
+                            <strong>Perfect for:</strong> Undergraduate and graduate students eager to explore careers in advanced electronics,
+                            and faculty looking to enrich their teaching and research.
                         </p>
                     </div>
                 </div>

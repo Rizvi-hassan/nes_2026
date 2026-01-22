@@ -32,16 +32,16 @@ function Registration() {
                             <ul className="space-y-2 text-gray-700 text-sm">
                                 <li className="flex items-start">
                                     <span className="text-dark mr-2">✓</span>
-                                    <span>Access to all sessions</span>
+                                    <span>Access for Day 1 (expert talks) only.</span>
                                 </li>
                                 <li className="flex items-start">
                                     <span className="text-dark mr-2">✓</span>
                                     <span>Live streaming</span>
                                 </li>
-                                <li className="flex items-start">
+                                {/* <li className="flex items-start">
                                     <span className="text-dark mr-2">✓</span>
                                     <span>Digital resources</span>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                         <button
@@ -68,15 +68,15 @@ function Registration() {
                             <ul className="space-y-2 text-gray-700 text-sm">
                                 <li className="flex items-start">
                                     <span className="text-dark mr-2">✓</span>
-                                    <span>In-person attendance</span>
+                                    <span>In-person attendance for one day</span>
                                 </li>
                                 <li className="flex items-start">
                                     <span className="text-dark mr-2">✓</span>
-                                    <span>Choose Day 1 or Day 2</span>
+                                    <span>Choose Day 1 (Expert Talks) OR Day 2 (Workshop)</span>
                                 </li>
                                 <li className="flex items-start">
                                     <span className="text-dark mr-2">✓</span>
-                                    <span>Workshop materials</span>
+                                    <span>Networking Opportunities</span>
                                 </li>
                                 {/* <li className="flex items-start">
                                     <span className="text-green-600 mr-2">✓</span>
@@ -111,16 +111,16 @@ function Registration() {
                             <ul className="space-y-2 text-gray-700 text-sm">
                                 <li className="flex items-start">
                                     <span className="text-dark mr-2">✓</span>
-                                    <span>In-person attendance both days</span>
+                                    <span>In-person attendance for two days</span>
                                 </li>
                                 <li className="flex items-start">
                                     <span className="text-dark mr-2">✓</span>
                                     <span>All expert talks & workshops</span>
                                 </li>
-                                <li className="flex items-start">
+                                {/* <li className="flex items-start">
                                     <span className="text-dark mr-2">✓</span>
-                                    <span>Complete workshop materials</span>
-                                </li>
+                                    <span>Networking Opportunities</span>
+                                </li> */}
                                 {/* <li className="flex items-start">
                                     <span className="text-purple-600 mr-2">✓</span>
                                     <span>Certificate of participation</span>

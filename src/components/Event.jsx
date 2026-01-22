@@ -18,7 +18,10 @@ function Event() {
                             </div>
                             <h3 className="text-2xl font-bold text-gray-900">Day 1</h3>
                         </div>
-                        <p className="text-gray-600 mb-2 font-semibold">January 30, 2026</p>
+                        <div className="flex items-center justify-between">
+                            <p className="text-dark mb-2 font-semibold">Online and Offline</p>
+                            <p className="text-gray-600 mb-2 font-semibold">January 30, 2026</p>
+                        </div>
                         <ul className="space-y-3 text-gray-700 mt-4">
                             <li className="flex items-start">
                                 <span className="text-blue-600 mr-2">•</span>
@@ -43,7 +46,10 @@ function Event() {
                             </div>
                             <h3 className="text-2xl font-bold text-gray-900">Day 2</h3>
                         </div>
-                        <p className="text-gray-600 mb-2 font-semibold">January 31, 2026</p>
+                        <div className="flex items-center justify-between">
+                            <p className="text-dark mb-2 font-semibold">Offline Only</p>
+                            <p className="text-gray-600 mb-2 font-semibold">January 31, 2026</p>
+                        </div>
                         <ul className="space-y-3 text-gray-700 mt-4">
                             <li className="flex items-start">
                                 <span className="text-indigo-600 mr-2">•</span>

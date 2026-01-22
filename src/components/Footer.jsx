@@ -29,17 +29,13 @@ function Footer() {
 
                     {/* Contact */}
                     <div>
-                        <h3 className="text-white font-bold text-lg mb-4">Quick Links</h3>
+                        <h3 className="text-white font-bold text-lg mb-4">Contact Information</h3>
                         <ul className="space-y-2 text-sm">
                             <li>
-                                <a href="/" className="hover:text-white transition-colors">
-                                    Home
-                                </a>
+                                nes@silicon.ac.in
                             </li>
                             <li>
-                                <a href="/register" className="hover:text-white transition-colors">
-                                    Register
-                                </a>
+                                +91 9853484812
                             </li>
                         </ul>
                     </div>

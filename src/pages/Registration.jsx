@@ -27,7 +27,7 @@ function Registration() {
                                 </svg>
                             </div>
                             <h2 className="text-2xl font-bold text-dark mb-2">Offline - 2 Days</h2>
-                            <p className="text-dark font-bold text-xl mb-1">₹ 750</p>
+                            <p className="text-dark font-bold text-xl mb-1">₹ 400</p>
                             <p className="text-gray-600 text-sm">Full event access</p>
                         </div>
                         <div className="mb-6">
@@ -63,7 +63,7 @@ function Registration() {
                                 </svg>
                             </div>
                             <h2 className="text-2xl font-bold text-dark mb-2">Offline - 1 Day</h2>
-                            <p className="text-dark font-bold text-xl mb-1">₹ 500</p>
+                            <p className="text-dark font-bold text-xl mb-1">₹ 250</p>
                             <p className="text-gray-600 text-sm">Choose Day 1 or Day 2</p>
                         </div>
                         <div className="mb-6">

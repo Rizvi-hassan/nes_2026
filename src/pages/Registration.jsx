@@ -46,11 +46,11 @@ function Registration() {
                                 </li>
                             </ul>
                         </div>
-                        <button
+                        <button disabled
                             onClick={() => handleRegister('https://forms.gle/cqLqi4p9HyBXTSjs9')}
-                            className="w-full cursor-pointer accent-dark text-white py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors shadow-md"
+                            className="w-full cursor-pointer bg-gray-700 text-white py-3 rounded-lg font-semibold hover:bg-gray800 transition-colors shadow-md"
                         >
-                            Register for 2 Days
+                            Registrations Closed
                         </button>
                     </div>
 
@@ -64,7 +64,7 @@ function Registration() {
                             </div>
                             <h2 className="text-2xl font-bold text-dark mb-2">Offline - 1 Day</h2>
                             <p className="text-dark font-bold text-xl mb-1">₹ 250</p>
-                            <p className="text-gray-600 text-sm">Choose Day 1 or Day 2</p>
+                            <p className="text-gray-600 text-sm">Choose Day 1 <span className="line-through">or Day 2</span></p>
                         </div>
                         <div className="mb-6">
                             <ul className="space-y-2 text-gray-700 text-sm">

@@ -50,7 +50,7 @@ const Speakers = () => {
         <div className="text-center mb-12 md:mb-16">
 
           <h2 className="text-3xl md:text-4xl font-bold text-light-1 mb-3">
-            Speakers & Guests of Honour
+            Our Speakers
           </h2>
 
           <div className="mt-6 w-20 h-1 accent-light mx-auto rounded-full" />

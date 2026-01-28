@@ -63,3 +63,16 @@ body {
 @utility abs-center {
   @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
 }
+
+@utility rotate {
+  animation: r 15s linear 0s infinite forwards ;
+}
+
+@keyframes r {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

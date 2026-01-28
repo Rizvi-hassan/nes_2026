@@ -7,7 +7,7 @@ function Hero() {
             <div className='absolute w-full h-full md:w-[95%] md:h-[95%] z-0 pt-20 abs-center'>
                 <img src="https://ik.imagekit.io/hh2sgw5xw/NES/Group.png" alt="Mask" className='relative w-full h-full object-cover object-bottom md:hidden opacity-70' />
                 {/* <img src="/images/Group.png" alt="Mask" className='relative w-full h-full object-cover object-bottom md:hidden opacity-70' /> */}
-                {/* <img src="/images/Group_md.png" alt="Mask" className='relative hidden w-full h-full object-contain md:block opacity-70' /> */}
+                {/* <img src="/images/Group_md.png" alt="Mask" className='relative hidden w-full h-full object-contain md:block opacity-70' /> */} 
                 <img src="https://ik.imagekit.io/hh2sgw5xw/NES/Group_md.png" alt="Mask" className='relative hidden w-full h-full object-contain md:block opacity-70' />
             </div>
 

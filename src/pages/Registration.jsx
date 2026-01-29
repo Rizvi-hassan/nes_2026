@@ -48,7 +48,7 @@ function Registration() {
                         </div>
                         <button disabled
                             onClick={() => handleRegister('https://forms.gle/cqLqi4p9HyBXTSjs9')}
-                            className="w-full cursor-pointer bg-gray-700 text-white py-3 rounded-lg font-semibold hover:bg-gray800 transition-colors shadow-md"
+                            className="w-full cursor-pointer bg-gray-700 text-white py-3 rounded-lg font-semibold transition-colors shadow-md"
                         >
                             Registrations Closed
                         </button>
@@ -88,7 +88,7 @@ function Registration() {
                         </div>
                         <button disabled
                             onClick={() => handleRegister('https://forms.gle/vPA7G44qvWwJcrdN9')}
-                            className="w-full cursor-pointer bg-gray-700 text-white py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors shadow-md"
+                            className="w-full cursor-pointer bg-gray-700 text-white py-3 rounded-lg font-semibold transition-colors shadow-md"
                         >
                             Registeratins Closed 
                         </button>

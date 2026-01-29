@@ -86,11 +86,11 @@ function Registration() {
                                 </li> */}
                             </ul>
                         </div>
-                        <button
+                        <button disabled
                             onClick={() => handleRegister('https://forms.gle/vPA7G44qvWwJcrdN9')}
-                            className="w-full cursor-pointer accent-dark text-white py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors shadow-md"
+                            className="w-full cursor-pointer bg-gray-700 text-white py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors shadow-md"
                         >
-                            Register for 1 Day
+                            Registeratins Closed 
                         </button>
                     </div>
 

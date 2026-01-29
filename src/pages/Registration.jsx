@@ -90,7 +90,7 @@ function Registration() {
                             onClick={() => handleRegister('https://forms.gle/vPA7G44qvWwJcrdN9')}
                             className="w-full cursor-pointer bg-gray-700 text-white py-3 rounded-lg font-semibold transition-colors shadow-md"
                         >
-                            Registeratins Closed 
+                            Registrations Closed 
                         </button>
                     </div>
 
